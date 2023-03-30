@@ -230,6 +230,10 @@ footer a {
 /* ............Tablet.............*/
 
 @media (min-width: 481px) and (max-width: 768px){
+
+    nav p {
+        margin-left: 5.5%;
+    }
     .container {
         display: grid;
         grid-template-columns: 60% 40%;
@@ -293,9 +297,9 @@ footer a {
         padding-left: 10%;
         padding-right: 5%;
         font-weight: 500;
-        font-size: 16.5px;
+        font-size: 16px;
         color: #83869A;
-        line-height: 27px;
+        line-height: 26px;
         letter-spacing: 0px;
     }
 
@@ -402,7 +406,7 @@ footer a {
     }
     .grid-elements p {
         font-weight: 500;
-        font-size: 12.5px;
+        font-size: 16px;
         color: #83869A;
         line-height: 26px;
         letter-spacing: 0px;
