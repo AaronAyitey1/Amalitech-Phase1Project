@@ -186,8 +186,6 @@ nav a {
 footer {
     display: flex;
     justify-content: space-between;
-    margin-left: 6%;
-    margin-right: 6%;
     align-items: center;
     background-color: #13183F;
     height: 120px;
@@ -198,7 +196,7 @@ footer p {
     font-size: 28px;
     font-weight: 800;
     line-height: 35px;
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 25px;
     line-height: 35px;
     color: white;
@@ -211,7 +209,7 @@ footer button {
     border: 0;
     cursor: pointer;
     background: linear-gradient(to bottom, #4851FF 20%, #F02AA6 80%);
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 footer button:hover {
@@ -246,7 +244,7 @@ footer a {
         margin-left: -90px;
     }
     .container h1 {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 800;
         line-height: 50.4px;
         letter-spacing: 0;
@@ -256,7 +254,7 @@ footer a {
     .container p {
         width: auto;
         font-weight: 500;
-        font-size: 16.5px;
+        font-size: 16px;
         line-height: 26px;
         letter-spacing: 0px;
         text-align: left;
@@ -295,10 +293,19 @@ footer a {
         padding-left: 10%;
         padding-right: 5%;
         font-weight: 500;
-        font-size: 12.5px;
+        font-size: 16.5px;
         color: #83869A;
         line-height: 27px;
         letter-spacing: 0px;
+    }
+
+    footer p {
+        margin-left: 5%;
+
+    }
+    
+    footer button {
+        margin-right: 5%;
     }
   
 
@@ -344,9 +351,9 @@ footer a {
     }
     .container h1 {
         display: block;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 800;
-        line-height: 50.4px;
+        line-height: 40.4px;
         letter-spacing: 0;
        
     }
@@ -355,7 +362,7 @@ footer a {
         display: block;
         width: auto;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 26px;
         letter-spacing: 0px;
         text-align: left;
@@ -399,5 +406,13 @@ footer a {
         color: #83869A;
         line-height: 26px;
         letter-spacing: 0px;
+    }
+    footer p {
+        margin-left: 5%;
+
+    }
+    
+    footer button {
+        margin-right: 5%;
     }
 }
